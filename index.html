@@ -1,95 +1,121 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Juan Buitrago - Portafolio</title>
-  <style>
-    /* Estilos CSS para personalizar tu página web */
-    body {
-      font-family: 'Segoe UI', Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f3f3f3;
-      color: #333;
-    }
-    
-    header {
-      background: linear-gradient(45deg, #556B2F, #8FBC8F);
-      color: #fff;
-      padding: 50px;
-      text-align: center;
-    }
-    
-    h1 {
-      margin: 0;
-      font-size: 48px;
-      font-weight: bold;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-    }
-    
-    p {
-      margin-top: 20px;
-      font-size: 20px;
-    }
-    
-    section {
-      background-color: #fff;
-      padding: 50px;
-      margin-bottom: 50px;
-      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-      border-radius: 10px;
-    }
-    
-    h2 {
-      font-size: 30px;
-      font-weight: bold;
-      color: #333;
-      margin-bottom: 20px;
-    }
-    
-    ul {
-      list-style-type: disc;
-      padding-left: 20px;
-    }
-    
-    li {
-      margin-bottom: 10px;
-      font-size: 18px;
-    }
-    
-    footer {
-      background: linear-gradient(45deg, #556B2F, #8FBC8F);
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-    
-    footer p {
-      margin: 0;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TuEmpresa - Servicios Tecnológicos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4a4a4a;
+            color: #ffffff;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            background-color: #333;
+            color: #ffffff;
+            padding: 0.5rem;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .service {
+            background-color: #f4f4f4;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: #ffffff;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Juan Buitrago</h1>
-    <p>Consultor Senior | Especialista en Soluciones Tecnológicas</p>
-  </header>
-  
-  <section>
-    <h2>Biografía</h2>
-    <p>Juan Buitrago cuenta con más de 20 años de experiencia en programación RPG y Cobol en plataforma AS400 de IBM. Ha trabajado en diversos proyectos y desempeñado roles de consultor senior, brindando soluciones tecnológicas a empresas de diferentes sectores. Juan está certificado en Scrum y también ha realizado un diplomado en Business Intelligence.</p>
-  </section>
-  
-  <section>
-    <h2>Experiencia</h2>
-    <p>A lo largo de mi carrera, he trabajado en varias empresas líderes en el sector, incluyendo XYZ Company y ABC Corporation. Durante mi tiempo en estas organizaciones, he liderado equipos de desarrollo, implementado soluciones tecnológicas y colaborado estrechamente con clientes para alcanzar sus objetivos.</p>
-  </section>
-  
-  <section>
-    <h2>Habilidades</h2>
-    <ul>
-      <li>Programación RPG y Cobol</li>
-      <li>Plataforma AS400 de IBM</li>
-      <li
+    <header>
+        <h1>TuEmpresa</h1>
+        <p>Soluciones Tecnológicas Avanzadas</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="inicio">
+            <h2>Bienvenidos a TuEmpresa</h2>
+            <p>Ofrecemos servicios tecnológicos de vanguardia para impulsar tu negocio.</p>
+        </section>
+
+        <section id="servicios">
+            <h2>Nuestros Servicios</h2>
+            
+            <div class="service">
+                <h3>Creación de Páginas Web</h3>
+                <p>Diseñamos y desarrollamos sitios web a medida, responsive y optimizados para SEO.</p>
+            </div>
+
+            <div class="service">
+                <h3>Robots con IA para Facebook y WhatsApp</h3>
+                <p>Desarrollamos bots inteligentes integrados con plataformas de redes sociales para mejorar la atención al cliente.</p>
+            </div>
+
+            <div class="service">
+                <h3>Consultoría Tecnológica</h3>
+                <p>Asesoramos en la implementación de soluciones tecnológicas para optimizar procesos empresariales.</p>
+            </div>
+
+            <div class="service">
+                <h3>AS/400 iSeries</h3>
+                <p>Ofrecemos servicios especializados en sistemas AS/400 e iSeries, incluyendo mantenimiento y desarrollo.</p>
+            </div>
+
+            <div class="service">
+                <h3>iPower</h3>
+                <p>Implementamos y gestionamos soluciones basadas en iPower para mejorar la eficiencia energética.</p>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Para más información sobre nuestros servicios, contáctanos en:</p>
+            <p>Email: info@tuempresa.com</p>
+            <p>Teléfono: +1 234 567 890</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 TuEmpresa. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
